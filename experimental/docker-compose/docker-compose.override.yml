@@ -1,0 +1,29 @@
+clouddriver: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+    - "../../config/aws:/root/.aws"
+    - "../../config/gcp:/root/.gcp"
+echo: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+#deck:
+#  volumes: 
+#    - "../../config/settings.js:/deck/settings.js"
+front50: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+gate: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+igor: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+orca: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+rosco: 
+  volumes: 
+    - "../../config:/opt/spinnaker/config"
+fiat:
+  volumes:
+    - "../../config:/opt/spinnaker/config"
