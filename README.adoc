@@ -2,6 +2,10 @@
 
 image:http://join.spinnaker.io/badge.svg[Slack Status,link=http://join.spinnaker.io]
 
+= Trustin 本地化
+将Spinnaker的开发部署本地化，兼容本地minikuber, jenkins, gitlab, docker repo., redis
+
+
 = Using Spinnaker
 
 If you are only interested in using Spinnaker, please refer to the main
